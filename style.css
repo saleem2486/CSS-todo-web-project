@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(182, 179, 179);
+}
+a{
+    text-decoration: none;
+}
+.addnewtask{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+.navbar{
+    padding: 20px;
+    background-color: white;
+}
+.span1{
+    margin-left: 100px;
+    font-size: 50px;
+}
+.span2{
+    font-size: 50px;
+    color: blue;
+}
+.addnewtask .plus{
+    font-size: 50px;
+background-color: blue;
+    color: white;
+}
+.btn0{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.container{
+    position: relative;
+    top: 100px;
+  padding-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    
+}
+.item{
+    padding-left: 20px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+ border-radius: 10px;
+    margin: 15px;
+font-size: xx-large;
+background-color: white;
+}
+.item p{
+    color: blue;
+}
+.item:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+
+/* Page 2 CSS Starts From here */
+
+.container2{
+    width: 500px;
+    height: 200px;
+   border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    background-color: white;
+}
+.item1{
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cross{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    margin-top: 10px;
+}
+.cross ion-icon{
+    font-size: 20px;
+}
+.page2btn{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.page2input{
+    margin-left: 5px;
+    width: 95%;
+    height: 25px;
+    background-color: rgb(211, 209, 209);
+}
+.opacity{
+    opacity: .5;
+    z-index:1;
+}
+
+/* page 3 Css Starts From Here */
+.container3{
+    position: relative;
+    top: 30px;
+}
+.back{
+    display: inline-block;
+position: absolute;
+left: 740px;    
+}
+.next{
+    display: inline-block;
+    position: absolute;
+    left: 1008px;
+}
+.item3{
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 10px black;
+    transition: 1.5s;
+   
+}
+.item3:hover{
+    transform: translateY(-20px);
+}
+
+
+.container3 ion-icon{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 30px;
+}
+.item3 p{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+.linethrough{
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* page 4 css Starts from here */
+.container4{
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+    top: 300px;
+    left: 700px; 
+}
+.page4btn{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
